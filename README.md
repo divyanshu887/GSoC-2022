@@ -79,7 +79,7 @@ For Security Header API
 
 The API keys are to be encoded in base64 and passed as a string.
 
-##### The APIs
+##### Unit Testing the APIs
 
 Unit testing for the APIs was done using `pytest` . 
 To run the tests locally
