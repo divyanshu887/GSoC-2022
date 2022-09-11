@@ -1,16 +1,15 @@
+<h1 align="center">Google Summer of Code 2022 <img src="https://media2.giphy.com/media/KB8MHRUq55wjXVwWyl/source.gif" width="50"></h1>
 
-# GSoC 2022 Report: Social Street Smart
-
-### *By Divyanshu Singh* 
-
-[Download the Extension (Chrome Webstore)](<https://chrome.google.com/webstore/detail/social-street-smart/ddjcjpfkmcgpgpjhlmdenmionhbnpagm?hl=en-GB&authuser=0>)
-
-[Chrome Extension Repository](https://gitlab.com/aossie/social-street-smart)
-
-[All API's Repository](https://gitlab.com/aossie/social-street-smart-api)
+<p align="center"><i>A full report on my Google Summer of Code 2022 work with Aossie</i></p>
+<p align="center"><i>Project: "Social Street Smart" </i>  👨‍💻</p>
 
 
 
+<p align="center">
+  <img src="https://i.imgur.com/fF5RFGo.png" />
+</p>
+
+### GSoC 2022 Report: Social Street Smart
 
 
 #### Summary
@@ -29,6 +28,14 @@ Here is a quick summary of the work done over this year:
 - :bug: Fixing bugs 
 - :rocket: Deployed the Updated Chrome Extension to the Chrome Webstore.
 
+#### [NEW] Security Header Checker 
+
+Cyberattack incidences have increased significantly as a result of the Internet's connections expanding exponentially. A significant number of links on today's social media platforms are malicious. So to safeguard users from those, I introduced the Security Header Checker API this summer.  It enables the user to lookup for any link and get information about browsing status of that link. A header checker would be beneficial in making sure that our users are as secure as possible from those malicious links.
+
+#### [NEW] SSL Validator 
+
+In today's world of the Internet, SSL certificates help keep user data secure,
+prevent attackers from creating a fake version of the site, verify ownership of the website and provide consumers a sense of security. So I introduced the SSL Validator API this summer. It enables the user to lookup for any link and get information about SSL certificates of that link.
 
 #### Unit Testing [ For Newly Created Features ]
 
@@ -71,10 +78,10 @@ For making the API calls, please follow the following format
 
 ```bash
 For SSL Validator API
-`localhost:5000/ssl/?urls=<LINK_FOR_LOOKUP>`
+`localhost:5000/ssl/?url=<LINK_FOR_LOOKUP>`
 
 For Security Header API
-`localhost:5000/shc/?urls=<LINK_FOR_LOOKUP>`
+`localhost:5000/shc/?url=<LINK_FOR_LOOKUP>`
 ```
 
 The API keys are to be encoded in base64 and passed as a string.
@@ -92,6 +99,15 @@ pip install -r requirements.txt
 pytest
 ```
 
+#### Project Links
+- [Download the Extension (Chrome Webstore)](<https://chrome.google.com/webstore/detail/social-street-smart/ddjcjpfkmcgpgpjhlmdenmionhbnpagm?hl=en-GB&authuser=0>)
+
+- [Chrome Extension Repository](https://gitlab.com/aossie/social-street-smart)
+
+- [All API's Repository](https://gitlab.com/aossie/social-street-smart-api)
+
+
+
 #### Merge Requests
 
 The following merge requests were made to the project during GSoC 2022.
@@ -101,3 +117,9 @@ The following merge requests were made to the project during GSoC 2022.
 
 ##### Social Street Smart Repository (Chrome Extension)
 - [!94 Added new UI for Settings Page (Merged)](https://gitlab.com/aossie/social-street-smart/-/merge_requests/94)
+- [!64 SSL Certificate Validator Support (Open)](https://gitlab.com/aossie/social-street-smart/-/issues/64)
+- [!65 Security Header Checker Support (Open)](https://gitlab.com/aossie/social-street-smart/-/issues/65)
+- [!61 SSL Certificate Validator API -Integration and Tests (Open)](https://gitlab.com/aossie/social-street-smart/-/issues/61)
+- [!62 Security Header Checker API -New API and Deployment (Open)](https://gitlab.com/aossie/social-street-smart/-/issues/62)
+- [!60 SSL Certificate Validator API -New API and Deployment (Open)](https://gitlab.com/aossie/social-street-smart/-/issues/60)
+- [!63 Security Header Checker API -Integration and Tests (Open)](https://gitlab.com/aossie/social-street-smart/-/issues/63)
