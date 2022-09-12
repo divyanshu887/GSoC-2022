@@ -1,3 +1,4 @@
+
 <h1 align="center">Google Summer of Code 2022 <img src="https://media2.giphy.com/media/KB8MHRUq55wjXVwWyl/source.gif" width="50"></h1>
 
 <p align="center"><i>A full report on my Google Summer of Code 2022 work with Aossie</i></p>
@@ -101,22 +102,20 @@ pytest
 
 #### Project Links
 - [Download the Extension (Chrome Webstore)](<https://chrome.google.com/webstore/detail/social-street-smart/ddjcjpfkmcgpgpjhlmdenmionhbnpagm?hl=en-GB&authuser=0>)
-
 - [Chrome Extension Repository](https://gitlab.com/aossie/social-street-smart)
-
 - [All API's Repository](https://gitlab.com/aossie/social-street-smart-api)
 
+
 #### Issues 
+- [SSS-Phase 1](https://gitlab.com/aossie/social-street-smart/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=GSoC%202022%20Coding%20Phase%201&first_page_size=20)
+- [SSS -Phase 2](https://gitlab.com/aossie/social-street-smart/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=GSoC%202022%20Coding%20Phase%202&first_page_size=20)
+- [SSS API - Phase 1 ](https://gitlab.com/aossie/social-street-smart-api/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=GSoC%202022%20Coding%20Phase%201&first_page_size=20)
 
-- [Phase 1](https://gitlab.com/aossie/social-street-smart/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=GSoC%202022%20Coding%20Phase%201&first_page_size=20)
-
-- [Phase 1](https://gitlab.com/aossie/social-street-smart-api/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=GSoC%202022%20Coding%20Phase%201&first_page_size=20)
-
-- [Phase 2](https://gitlab.com/aossie/social-street-smart/-/issues/?sort=updated_desc&state=opened&label_name%5B%5D=GSoC%202022%20Coding%20Phase%202&first_page_size=20)
 
 #### Merge Requests
 
 The following merge requests were made to the project during GSoC 2022.
+
 
 ##### Social Street Smart API Repository
 - [!16 Combined PRs for SSL Validator and Security Header Checker API (Merged)](https://gitlab.com/aossie/social-street-smart-api/-/merge_requests/16)
